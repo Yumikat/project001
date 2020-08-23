@@ -1,0 +1,36 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.navBar {
+    text-align: end;
+    font-family: 'Libre Caslon Display', serif;
+}
+
+aside {
+    float: left;
+    width: 300px;
+    border: solid blue 2px;
+    padding: 10px;
+    margin: 10px;
+}
+
+section {
+    float: right;
+    width: 1000px;
+    padding: 10px;
+    margin: 10px;
+    text-align: right;
+}
+
+.clearfix:after {
+    content: " "; 
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+ }
+
+ footer {
+     text-align: center;
+ }
